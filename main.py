@@ -122,6 +122,7 @@ def searchBill():
     for i in range(0, len(orignal_list)):
       if duplicate_list[i] == name:
         print(orignal_list[i], end='')
+  welcome()
 
 
 #########################--Adding Items to Order--###############################

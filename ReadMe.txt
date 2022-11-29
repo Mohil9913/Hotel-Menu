@@ -17,8 +17,8 @@ add page --- pdf.add_page()
 
 setup --- pdf.set_font("Arial", size = 15)
 
-heading --- pdf.cell(200, 10, txt = "HEADING", ln = 1, align = 'C')
+heading --- pdf.cell(200, 10, txt = "GeeksforGeeks", ln = 1, align = 'C')
 
-body --- pdf.cell(200, 10, txt = "BODY", ln = 2, align = 'C')
+body --- pdf.cell(200, 10, txt = "A Computer Science portal for geeks.", ln = 2, align = 'C')
 
-save --- pdf.output("NAME.pdf")
+save --- pdf.output("GFG.pdf")
